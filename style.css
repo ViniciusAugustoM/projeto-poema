@@ -1,16 +1,21 @@
 body{
-    margin: auto;
+
     text-align: justify;
+    max-width: 1300px;
+    min-width: 320;
+    magin
 }
 @font-face{
     font-family:"comic";
     src: url(fonts/ComicNeueSansID.ttf);
 }
 header{
-    padding: 20px;
-    background-color: black;
     color: aliceblue;
-    min-height: 450px;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    background-color:black ;
+    width:1980px ;
 }
 header > h1{
     text-align: center;
@@ -27,8 +32,7 @@ main{
     box-sizing: content-box;
     border-top: 50px;
     line-height: 2.5;
-    padding-bottom: 40px;
-    padding-left: 15px;
+    padding: 40px 15px;
     
     
 }
