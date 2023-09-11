@@ -10,7 +10,7 @@ header{
     padding: 20px;
     background-color: black;
     color: aliceblue;
-    min-height: 150px;
+    min-height: 450px;
 }
 header > h1{
     text-align: center;
