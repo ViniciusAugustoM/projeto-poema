@@ -1,10 +1,10 @@
 body{
-
+    margin:0px;
     text-align: justify;
     max-width: 1300px;
     min-width: 320;
-    magin
 }
+
 @font-face{
     font-family:"comic";
     src: url(fonts/ComicNeueSansID.ttf);
@@ -15,11 +15,12 @@ header{
     text-align: center;
     padding-top: 20px;
     background-color:black ;
-    width:1980px ;
+    min-width:1980px;
 }
 header > h1{
     text-align: center;
     font-size: 4em;
+    justify-content: center;
 }
 main{
     font-family: "comic";
