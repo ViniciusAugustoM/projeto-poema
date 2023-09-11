@@ -1,8 +1,12 @@
-body{
-    margin:0px;
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    background-color: gray;
     text-align: justify;
-    max-width: 1300px;
-    min-width: 320;
+    min-height: 100vh;
 }
 
 @font-face{
@@ -15,65 +19,49 @@ header{
     text-align: center;
     padding-top: 20px;
     background-color:black ;
-    min-width:1980px;
 }
 header > h1{
     text-align: center;
-    font-size: 4em;
+    font-size: 6vh;
     justify-content: center;
+    font-variant: small-caps;
 }
 main{
     font-family: "comic";
     font-weight: 500;
 }
- p{
-    width: 500px;
-    font-size: 2em;
-    margin:80px 60px;
-    box-sizing: content-box;
-    border-top: 50px;
+article{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 20px;
     line-height: 2.5;
-    padding: 40px 15px;
-    
-    
+    font-size: 3vh;
 }
-#fundo1{
-    background-color: black;
-    background-image: url(imagens/background001.jpg);
-    min-height: 600px;
-    min-width: 1980px;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    box-shadow: -2px -1px 4px black;
-    position: absolute;
-    padding: 10px;
-    
-    
+article.normal{
+    background-color: aliceblue;
+    color: black;
 }
-#fundo2{
-    background-color: black;
-    background-image: url(imagens/background002.jpg);
-    min-height: 600px;
-    min-width: 1980px;
-    padding: 10px;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.521);
-    box-shadow: -2px -1px 4px black;
-    position: absolute;
-}
-p.textos{
-    background-color: rgba(0, 0, 0, 0.384);
-    width: 500px;
-    font-size: 2em;
-    margin:80px 60px ;
-    box-sizing: content-box;
-    border-top: 50px;
+article.fundo{
+    background-color: rgba(55, 55, 55, 0.308);
     color: aliceblue;
-    text-indent: 20px;
-    line-height: 2.5;
-    padding-left: 15px;
-
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.37);
+    background-attachment: fixed;
+}
+article.fundo > p{
+    background-color: rgba(0, 0, 0, 0.366);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 2px 1px black;
+}
+article#img01{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+}
+article#img02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
 }
