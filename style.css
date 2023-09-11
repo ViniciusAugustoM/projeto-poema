@@ -1,0 +1,74 @@
+body{
+    margin: auto;
+    text-align: justify;
+}
+@font-face{
+    font-family:"comic";
+    src: url(fonts/ComicNeueSansID.ttf);
+}
+header{
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+    min-height: 150px;
+}
+header > h1{
+    text-align: center;
+    font-size: 4em;
+}
+main{
+    font-family: "comic";
+    font-weight: 500;
+}
+ p{
+    width: 500px;
+    font-size: 2em;
+    margin:80px 60px;
+    box-sizing: content-box;
+    border-top: 50px;
+    line-height: 2.5;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    
+    
+}
+#fundo1{
+    background-color: black;
+    background-image: url(imagens/background001.jpg);
+    min-height: 600px;
+    min-width: 1980px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: -2px -1px 4px black;
+    position: absolute;
+    padding: 10px;
+    
+    
+}
+#fundo2{
+    background-color: black;
+    background-image: url(imagens/background002.jpg);
+    min-height: 600px;
+    min-width: 1980px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.521);
+    box-shadow: -2px -1px 4px black;
+    position: absolute;
+}
+p.textos{
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 500px;
+    font-size: 2em;
+    margin:80px 60px ;
+    box-sizing: content-box;
+    border-top: 50px;
+    color: aliceblue;
+    text-indent: 20px;
+    line-height: 2.5;
+    padding-left: 15px;
+
+}
